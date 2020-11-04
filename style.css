@@ -1,0 +1,42 @@
+body {
+    margin: auto;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+
+.calendar {
+    border-spacing: 0;
+    height: 50vh;
+    width: 70vh;
+    
+}
+
+thead {
+    background-color: bisque;
+}
+tr > th {
+    height: 12vh;
+
+}
+
+/*tech table*/
+
+#tech {
+    border-spacing: 0;
+    margin: auto;
+    justify-content: center;
+
+}
+#tech > thead {
+    background-color: rgb(75, 144, 146);
+}
+
+tbody > tr > td {
+    text-align: center;
+}
+
+#tech > tbody > tr:nth-child(1) >td {
+    background-color: rgba(110, 110, 110, 0.671);
+}
